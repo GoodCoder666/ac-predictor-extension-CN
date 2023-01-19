@@ -16,7 +16,7 @@ ac-predictor 的汉化版，感谢 [@key-moon](https://github.com/key-moon) 提�
 
 > 已经安装过插件的可以跳过此步。
 
-打开官网 [https://www.tampermonkey.net/](https://www.tampermonkey.net/)，按照提示操作即可。
+打开官网 [https://www.tampermonkey.net/](https://www.tampermonkey.net/)，按提示操作即可。
 
 支持的浏览器：Chrome、(新版) Edge、Firefox、Safari、Opera Next。理论上支持所有 Chromium 内核的浏览器。
 
@@ -24,7 +24,7 @@ ac-predictor 的汉化版，感谢 [@key-moon](https://github.com/key-moon) 提�
 
 #### 方法1：使用 Greasy Fork 安装脚本（推荐）
 
-过几天会把脚本发在 Greasy Fork 上，请先使用下面的方法。
+打开 [Greasy Fork 脚本链接](https://greasyfork.org/zh-CN/scripts/458528-ac-predictor-cn)，选择“安装此脚本”，按提示操作即可。
 
 #### 方法2：直接添加脚本
 
