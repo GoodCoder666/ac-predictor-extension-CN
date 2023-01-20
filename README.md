@@ -22,6 +22,8 @@ ac-predictor 的汉化版，感谢 [@key-moon](https://github.com/key-moon) 提�
 
 ### 2. 将脚本添加到 Tampermonkey
 
+⚠️注意：如果已经安装了原版插件请先禁用或卸载，否则会冲突导致无法正常使用！:warning:
+
 #### 方法1：使用 Greasy Fork 安装脚本（推荐）
 
 打开 [Greasy Fork 脚本链接](https://greasyfork.org/zh-CN/scripts/458528-ac-predictor-cn)，选择“安装此脚本”，按提示操作即可。
@@ -33,9 +35,26 @@ ac-predictor 的汉化版，感谢 [@key-moon](https://github.com/key-moon) 提�
 
 #### 方法3：使用外部引用
 
-> 优点：操作简单，可以自动更新脚本
+优点：操作简单，可以自动更新脚本
+
+> ℹ️ 请仅在网络情况好（`raw.githubusercontent.com` 能正常访问）的情况下使用此方法。
 >
-> ⚠️请仅在网络好（GitHub 访问稳定）的情况下使用此方法，否则无法正常使用！⚠️
+> 检查方法：命令行执行
+> 
+> ```shell
+> nslookup raw.githubusercontent.com
+> ```
+> 
+> 如果出现`Non-existent domain`之类的错误，则表明无法使用。可以采用下面的解决方法。
+> 
+> **修改 DNS 解析服务器**
+> 
+> 使用 Google Public DNS 即可：
+> 
+> - IPv4 首选 `8.8.8.8`，备选 `8.8.4.4`
+> - IPv6 首选 `2001:4860:4860::8888`，备选 `2001:4860:4860::8844`
+>
+> 然后重启电脑。千万不要忘记设置 IPv6，要不然很可能还是用不了。
 
 直接复制下面的内容：
 
@@ -51,7 +70,7 @@ ac-predictor 的汉化版，感谢 [@key-moon](https://github.com/key-moon) 提�
 // @supportURL  https://github.com/GoodCoder666/ac-predictor-extension-CN/issues
 // @match       https://atcoder.jp/*
 // @exclude     https://atcoder.jp/*/json
-// @require     https://github.com/GoodCoder666/ac-predictor-extension-CN/raw/main/ac-predictor.min.js
+// @require     https://raw.githubusercontent.com/GoodCoder666/ac-predictor-extension-CN/main/ac-predictor.min.js
 // ==/UserScript==
 ```
 
