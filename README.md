@@ -1,5 +1,7 @@
 # ac-predictor-extension-CN
 
+[![](https://img.shields.io/greasyfork/dt/458528)](https://greasyfork.org/zh-CN/scripts/458528-ac-predictor-cn)
+
 ac-predictor 的汉化版，感谢 [@key-moon](https://github.com/key-moon) 提供[原版脚本](https://github.com/key-moon/ac-predictor/tree/master/addon)（原版为日语）。
 
 本人不会日语，翻译主要依靠日常使用经验，有道/谷歌翻译辅助。**欢迎 PR 改进翻译。**
